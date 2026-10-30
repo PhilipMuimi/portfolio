@@ -35,7 +35,7 @@ Open http://127.0.0.1:8765. To deploy, serve this directory as a static website;
 | `js/nav.js`                     | Navigation, theme control, skills filtering, clipboard, and email composition |
 | `documents/Philip-Muimi-CV.pdf` | Downloadable résumé                                                           |
 | `images/optimized/`             | Smaller WebP versions used by the page                                        |
-| `images/`                       | Retained source photos and SVG favicon                                        |
+| `images/`                       | SVG favicon; photos are stored only in `images/optimized/`                                        |
 | `qa/`                           | Generated browser screenshots and report (ignored by Git)                     |
 | `scripts/browser_check.py`      | Browser regression checks via Chrome DevTools Protocol                        |
 
